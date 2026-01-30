@@ -1,0 +1,32 @@
+site_name: 🚀 Vedic Mathematics 2026
+site_description: Ancient wisdom for quantum-speed calculations
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: orange
+      accent: amber
+  icon:
+    logo: material/rocket
+nav:
+  - Home: index.md
+  - Multiplication: multiplication.md
+  - Addition: addition.md
+  - Subtraction: subtraction.md
+  - Division: division.md
+  - Practice: practice.md
+  - Benchmarks: benchmarks.md
+  - Bootcamp: bootcamp.md
+  - Tracker: tracker.md
+  - Rules: rules.md
+plugins:
+  - search
+markdown_extensions:
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
